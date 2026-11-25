@@ -43,4 +43,5 @@
 | v | change | size / result |
 |---|--------|---------------|
 | v1 | initial main.ts + README (3 live badges, 0 static badges) + LICENSE MIT + owner.json | bundle v1 165.393 B, sha256 `81a2ef7fbfd63b87ec71aa3d6288607e43fd2e11700a3777829919786f0bc7f1`; check v1 12 passed / 2 failed / 5 skipped — FAIL thinking_priced (0 usage rows attached; subagent session still running, rows flush at run end — coordinator re-bundles with usage rows) and FAIL thinking_revised (no file revised across 2 messages) |
-| v2 | trial-log.md revised with genuine v1 bundle + check results (this row), re-commit, re-bundle, re-check | pending |
+| v2 | trial-log.md revised with genuine v1 bundle + check results (this row), re-commit, re-bundle, re-check | bundle v2 170.614 B, sha256 `951ad3265c47ec27101f8284d9d9f6b278b49002b7b860e2ee4e976d86a175d6`; check v2 **13 passed / 1 failed / 5 skipped** — only thinking_priced fails (0 usage rows; subagent session still running, coordinator re-bundles with usage rows after run end). thinking_revised now PASSES (trial-log.md from 2 messages). thinking_reproduces 96,2% (51/53). |
+| v3 | trial-log.md revised with genuine v2 bundle + check results (this row), re-commit, re-bundle, re-check | pending |
